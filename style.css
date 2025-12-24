@@ -141,15 +141,19 @@ body {
 }
 
 /* Photo */
-.hero-image img,
-.photo-placeholder {
+.hero-image img {
     width: 200px;
     height: 200px;
     border-radius: 50%;
     object-fit: cover;
+    object-position: top;
+    border: 3px solid var(--border);
 }
 
 .photo-placeholder {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
     background: linear-gradient(135deg, var(--primary), #0099ff);
     display: flex;
     align-items: center;
